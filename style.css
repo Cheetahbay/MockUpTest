@@ -1,0 +1,387 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.container {
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.landmark {
+  background-color: lightgrey;
+  height: 35px;
+  width: 35px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  font-size: 0.75rem;
+}
+
+.search-bar {
+  height: 48px;
+  border-color: white;
+}
+
+.search {
+  display: flex;
+}
+
+.blue {
+  color: #0065fc;
+}
+
+.button {
+  color: white;
+  background-color: #0065fc;
+  border-color: blue;
+}
+
+.solid {
+  display: flex;
+}
+
+.filters {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  gap: 25px;
+}
+
+.btn-wrapper {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 25px;
+  white-space: nowrap;
+  gap: 15px 20px;
+}
+
+body {
+  min-width: 370px;
+  /* max-width: 1440px; */
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+}
+
+.filter {
+  background-color: white;
+  border-radius: 30px;
+  border-color: lightgrey;
+  border-style: solid;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.filter p {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.filter-heading h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 10px;
+}
+
+.icon {
+  background-color: #deebff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
+  padding-right: 2px;
+  padding-top: 11px;
+  vertical-align: middle;
+  margin-left: -6px;
+  color: #0065fc;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.activ {
+  padding-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  width: 85%;
+}
+
+.activ-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activ-card {
+  border-radius: 15px;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 20%;
+  box-shadow: 10px 5px 5px #f2f2f2;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.activ h3 {
+  margin-left: 3%;
+}
+
+.activ-card img {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  width: 100px;
+}
+.accomm {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.accommadations-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.accommadations-card {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: white;
+  width: 27%;
+  margin: 2%;
+  color: black;
+  text-decoration: none;
+}
+
+.accommadations-card img {
+  object-fit: cover;
+  height: 85px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.accommadations-card a {
+  color: black;
+  text-decoration: none;
+}
+
+.accommadations-card p,
+.accommadations-card h3,
+.ratings {
+  margin: -0.5px 0;
+  margin-left: 3px;
+  font-size: 0.75rem;
+}
+
+.popular {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 35%;
+  margin: 20px;
+}
+
+.popular-card-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.pop-card {
+  display: flex;
+  border-radius: 15px;
+  padding: 5px;
+  background-color: white;
+  margin: 5%;
+  color: black;
+  text-decoration: none;
+}
+
+.pop-card p,
+.pop-card h3,
+.ratings {
+  /* margin: -.5px 0; */
+  margin-left: -1px;
+  font-size: 0.75rem;
+}
+
+.pop-card img {
+  object-fit: cover;
+  height: 85px;
+  width: 85%;
+  border-top-left-radius: 7%;
+  border-bottom-left-radius: 7%;
+  padding-right: 30px;
+  max-width: 85%;
+}
+
+.large img {
+  height: 300px;
+}
+
+.fort img {
+  height: 210px;
+}
+
+.island img {
+  height: 100px;
+}
+
+.notre img {
+  height: 120px;
+}
+
+.longchamp img {
+  height: 180px;
+}
+
+.second,
+.fourth {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second .activ-card,
+.fourth .activ-card {
+  width: 100%;
+  justify-content: space-between;
+}
+
+/*---------footer---------*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* .container {
+  margin: auto;
+} */
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.li {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-list {
+  width: 250px;
+}
+
+.footer {
+  background-color: lightgrey;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+}
+
+/*  */
+/* .footer-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  width: 25%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 300;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: lightgrey;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 11px;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 10px;
+} */
+
+/* to do */
+@media (max-width: 768px) {
+}
